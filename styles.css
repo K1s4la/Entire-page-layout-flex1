@@ -2,7 +2,7 @@
 body{
    height:100vh;
    margin:0; /* this makes the footer go to the bottom and even*/
-   overflow: hidden;/*this makes it so that the footer isnt visible when*/
+   overf low: hidden;/*this makes it so that the footer isnt visible when*/
    font-family:Roboto,sans-serif;
 }
 a{
@@ -13,8 +13,18 @@ ul{
     list-style-type:none;
 }
 .footer{
+    display:flex;
     background-color:rgb(233, 233, 233);
-    
+    justify-content: space-between;
+    margin-top: 230px;
+}
+.footer .right-links{
+    display:flex;
+    gap:12px;
+}
+.footer .left-links{
+    display:flex;
+    gap:12px;
 }
 .input{
     display:flex;
@@ -23,7 +33,8 @@ ul{
 img{
     display:block;
     width:450px;
-  margin-left:auto; margin-right:auto;
+  margin-left:auto; margin-right:auto; margin-top:80px;
+  
 }
 /*.right-links{
     display:flex;
@@ -34,12 +45,19 @@ img{
     display:flex;
     justify-content: center;
     margin-top:8px;
+    gap:4px;
     
+}
+button{
+    border:none;
+    border-radius: 6px;
 }
 input{
     border-radius:10px;
     width:25%;
     border:1px gray solid;
+    padding:4px 10px;
+    margin-bottom:10px;
 }
 /*.left-links{
     display:flex;
@@ -49,13 +67,13 @@ input{
 */
 .header{
     display:flex;
-    border:1px solid black;
+    bo rder:1px solid black;
     justify-content: space-between;
    width:auto;
    font-weight:bold;
    align-items: center;
    margin-bottom:8px;
-   font-size:18px;
+   font-size:12px;
 }
 .header .right-links{
     display:flex;
