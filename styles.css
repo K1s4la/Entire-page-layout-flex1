@@ -1,9 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 body{
-   
+   height:100vh;
+   margin:0; /* this makes the footer go to the bottom and even*/
+   overflow: hidden;/*this makes it so that the footer isnt visible when*/
+   font-family:Roboto,sans-serif;
 }
 a{
     text-decoration: none;
+    color:gray;
 }
 ul{
     list-style-type:none;
 }
+.footer{
+    background-color:rgb(233, 233, 233);
+    
+}
+.input{
+    display:flex;
+    justify-content: center;
+}
+img{
+    display:block;
+    width:450px;
+  margin-left:auto; margin-right:auto;
+}
+/*.right-links{
+    display:flex;
+    justify-content:flex-end;
+    gap:10px;
+}*/
+.buttons{
+    display:flex;
+    justify-content: center;
+    margin-top:8px;
+    
+}
+input{
+    border-radius:10px;
+    width:25%;
+    border:1px gray solid;
+}
+/*.left-links{
+    display:flex;
+    gap:10px;
+    align-self: center;
+}
+*/
+.header{
+    display:flex;
+    border:1px solid black;
+    justify-content: space-between;
+   width:auto;
+   font-weight:bold;
+   align-items: center;
+   margin-bottom:8px;
+   font-size:18px;
+}
+.header .right-links{
+    display:flex;
+    gap:10px;
+  
+}
+.header .left-links{
+    display:flex;
+    gap:10px;
+    width:auto; height:auto;
+}
+div{
+   
+}
+
+
